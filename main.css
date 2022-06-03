@@ -1,0 +1,107 @@
+.container {
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li{
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+}
+
+section {
+    padding-top: 8px;
+}
+
+.main {
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.panel {
+    font-size: 16px;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+li a{
+    display: block;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li a:hover:not(.active):not(.inner) {
+    background-color: #111;
+    color: white;
+    transition: linear;
+    transition-duration: 0.3s;
+}
+
+ul li a:hover {
+    border: 0px;
+}
+
+ul li ul{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+
+ul li ul li{
+    float: left;
+}
+
+ul li ul li a{
+    outline: none;
+    font-size: 13px;
+}
+
+ul li ul:hover il {
+    display: block;
+}
+
+ul li:hover ul, ul li ul{
+    display: block;
+}
+
+div h2 a{
+      font-size: 16px;
+}
+
+section button {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+section button:hover{
+    background: #e21d80;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.input-group button:hover{
+    background: #e21d80;
+    color: black;
+    transition: 0.4s;
+}
+
+hr {
+    width: 1000px;
+}
